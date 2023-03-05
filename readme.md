@@ -174,6 +174,8 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![image](https://user-images.githubusercontent.com/79465722/222976291-4095a890-909a-4289-8269-f223d236e7b4.png)
 
+![image](https://user-images.githubusercontent.com/79465722/222984674-160d3998-e050-44a4-989d-009320f64785.png)
+
 - To add product tags, write the tag in the `New Tag` field and click on `Plus icon`.
 
 ![Untitled3](https://user-images.githubusercontent.com/79465722/222976421-3e887be5-80eb-46e0-8f72-032ddf0b1bdb.png)
