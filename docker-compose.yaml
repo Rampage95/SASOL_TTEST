@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend        
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/backend
+    image: zupersaski/product_catalog_backend
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+    image: zupersaski/product_catalog_frontend

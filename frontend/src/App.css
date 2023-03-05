@@ -1,0 +1,224 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #CCC;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px 60px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.title {
+  /* text-align: left; */
+  /* padding-left: 100px; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em; 
+  margin: 40px 0 40px 0;
+}
+
+.toolbar {
+  max-width: 700px;
+  width: 100%;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.toolbar .MuiTextField-root {
+  flex: 2;
+}
+
+.toolbar button {
+  margin-left: 10px;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  height: 560px;
+  margin-bottom: 40px;
+  border: solid 0.5 #c4c4c4;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.actionButton {
+  width: 90px;
+}
+
+.MuiCardActions-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiCardActions-root #delete {
+  margin-left: 10px;
+  background-color: #f54b56;
+}
+
+.MuiCardContent-root > .MuiTypography-h5 {
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.MuiCardContent-root > .MuiTypography-body2 {
+  box-sizing: border-box;
+  height: 146px;
+  padding: 10px 20px;
+  margin: 10px 0 18px 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.MuiCardContent-root > .MuiTypography-body1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: red;
+  margin-right: 7px;
+}
+
+.MuiCardContent-root > #tags {
+  margin-top: 16px;
+  height: 75px;
+  overflow: hidden auto;
+} 
+
+.MuiCardContent-root > #tags > .MuiChip-root {
+  margin: 0 5px 3px 0;
+  font-size: 15px;
+}
+
+.edit-content {
+  max-width: 700px;
+  width: 90%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "picture picture"
+    "name price"
+    "description description"
+    "tags tags"
+    "activation activation"
+}
+
+.grid-item-0 {
+  grid-area: picture;
+}
+
+.grid-item-1 {
+  grid-area: name;
+}
+
+.grid-item-2 {
+  grid-area: price;
+}
+
+.grid-item-3 {
+  grid-area: description;
+}
+
+.grid-item-4 {
+  grid-area: tags;
+}
+
+.grid-item-5 {
+  border: solid 0.5px #c4c4c4;
+  border-radius: 4px;
+  grid-area: activation;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.grid-item-4 div {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-item-4 div .MuiChip-deletable {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#add-button {
+  margin: 0 0 8px 2px;
+}
+
+#add-icon {
+  color: #fff;
+  background-color: #1976d2;
+  border-radius: 80px;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.img-err-404 {
+  width: 200px;
+  height: 200px;
+}
+
+.content-err-404 {
+  width: 400px;
+  margin-bottom: 40px; 
+}
+
+.content a {
+  font-weight: bold;
+}
+
+#product-img {
+  width: 200px;
+  height: 200px;
+  border: solid 0.5px #c4c4c4;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.tooltip {
+  font-size: 16px;
+}
+
+.empty-list > img {
+  width: 350px;
+  height: 350px;
+}
+
+.empty-list > p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: #4a486a;
+  font-size: 24px;
+}
