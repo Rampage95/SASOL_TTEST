@@ -98,7 +98,7 @@ Note that you can also clone the project from Github and build docker images loc
 
 ### 2. Run the project by cloning it from Github
 
-1. Open the <a href="https://github.com/Rampage95/product_catalog">project Github repository</a>.
+1. Open the <a href="https://github.com/Rampage95/SASOL_TTEST">project Github repository</a>.
 2. Clone the project.
 3. Open the project in an Integrated Development Environment (IDE) (like VSCode, Intellij...)
 
@@ -195,4 +195,4 @@ After running the project successfully, a Product Catalog page will be displayed
 
 Saifeddine Skini - [@LinkedIn](https://www.linkedin.com/in/skini-saifeddine-6018a9189/) - skini.channel@gmail.com
 
-Project Link: [https://github.com/Rampage95/product_catalog](https://github.com/Rampage95/product_catalog)
+Project Link: [https://github.com/Rampage95/SASOL_TTEST](https://github.com/Rampage95/SASOL_TTEST)
