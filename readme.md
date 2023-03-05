@@ -195,6 +195,12 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![image](https://user-images.githubusercontent.com/79465722/222980879-c501ccfd-cfbb-4ba1-b562-15ed2dc6aa00.png)
 
+### 404 NOT FOUND Page:
+
+- A 404 NOT FOUND page is displayed whenever the user tries to access a wrong URL (for exemple <a href="http://localhost:3000/wrong_path">http://localhost:3000/wrong_path</a>).
+
+![image](https://user-images.githubusercontent.com/79465722/222981359-4654fc20-513d-4985-bcda-5c830deae700.png)
+
 <!-- CONTACT -->
 
 ## Contact
