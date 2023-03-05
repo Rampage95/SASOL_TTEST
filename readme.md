@@ -198,7 +198,7 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ### 404 NOT FOUND Page
 
-- A 404 NOT FOUND page is displayed whenever the user tries to access a wrong URL (for exemple <a href="http://localhost:3000/wrong_path">http://localhost:3000/wrong_path</a>).
+- A 404 NOT FOUND page is displayed whenever the user tries to access a wrong URL (<a href="http://localhost:3000/wrong_path">http://localhost:3000/wrong_path</a> for exemple).
 
 ![image](https://user-images.githubusercontent.com/79465722/222981359-4654fc20-513d-4985-bcda-5c830deae700.png)
 
