@@ -34,6 +34,7 @@
             <li><a href="#PRODUCT CATALOG">PRODUCT CATALOG Page</a></li>
             <li><a href="#PRODUCT DETAILS">PRODUCT DETAILS Page</a></li>
             <li><a href="#PRODUCT CREATION">PRODUCT CREATION Page</a></li>
+            <li><a href="#404 NOT FOUND">404 NOT FOUND Page</a></li>
           </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -143,7 +144,7 @@ Note that you can also clone the project from Github and build docker images loc
     docker-compose up
    ```
 
-## Usage:
+## Usage
 
 After running the project successfully, a Product Catalog page will be displayed in the browser.
 
@@ -167,7 +168,7 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![Untitled1](https://user-images.githubusercontent.com/79465722/222975865-a4cf22c0-26de-4f20-a401-b5f6831f2c6b.png)
 
-### PRODUCT CREATION Page:
+### PRODUCT CREATION Page
 
 - In order to create a new product, you need to fill at least the three mandatory fields: `Name`, `Price` and `Description` (indicated by \* in their labels).
 
@@ -187,7 +188,7 @@ After running the project successfully, a Product Catalog page will be displayed
 
 - Clicking on BACK button will redirect you to the PRODUCT CATALOG page.
 
-### PRODUCT DETAILS Page:
+### PRODUCT DETAILS Page
 
 - This page allows you to edit the properties of a product.
 
@@ -195,7 +196,7 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![image](https://user-images.githubusercontent.com/79465722/222980879-c501ccfd-cfbb-4ba1-b562-15ed2dc6aa00.png)
 
-### 404 NOT FOUND Page:
+### 404 NOT FOUND Page
 
 - A 404 NOT FOUND page is displayed whenever the user tries to access a wrong URL (for exemple <a href="http://localhost:3000/wrong_path">http://localhost:3000/wrong_path</a>).
 
