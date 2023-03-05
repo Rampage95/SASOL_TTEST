@@ -174,6 +174,8 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![image](https://user-images.githubusercontent.com/79465722/222976291-4095a890-909a-4289-8269-f223d236e7b4.png)
 
+- The mandatory fields can't be empty, and the price field should respect the format digits dot digits (for exemple 120.1, 3000.543 etc).
+
 ![image](https://user-images.githubusercontent.com/79465722/222984674-160d3998-e050-44a4-989d-009320f64785.png)
 
 - To add product tags, write the tag in the `New Tag` field and click on `Plus icon`.
