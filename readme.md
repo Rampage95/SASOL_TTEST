@@ -48,6 +48,8 @@
 
 This project is a responsive React.js Django SQLite application. It's a simple CRUD App, that allows the user to see, create, update and delete a product.
 
+![image](https://user-images.githubusercontent.com/79465722/222981061-77eb32ad-8c43-43b9-a9d7-df2a0a0ad571.png)
+
 ### Built With
 
 - JavaScript, React.js, Material-UI
