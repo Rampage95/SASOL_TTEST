@@ -177,6 +177,8 @@ After running the project successfully, a Product Catalog page will be displayed
 
 - To remove a tag from the product, click on cross icon.
 
+![Untitled3](https://user-images.githubusercontent.com/79465722/222980786-d35d44a5-f915-4ed5-8208-0e5f34d10c3b.png)
+
 - Clicking on CONFIRM button will create the product and redirect you back automatically to the PRODUCT CATALOG page.
 
 - Clicking on CLEAR button will empty the fields.
