@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import '../../App.css';
 // import { raw_data } from '../static_data.js';
 import ProductTemplate from './ProductTemplate';
-import { TextField, InputAdornment, Button } from '@mui/material';
+import { TextField, InputAdornment, Button, LinearProgress, Box, Typography } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import AddIcon from '@mui/icons-material/Add';
 import { useNavigate } from "react-router-dom";
@@ -49,6 +49,8 @@ export default function ProductList() {
                 setDataImage(aux_data);
             })
             .catch((err) => {
+                setData([]);
+                setDataImage([]);
                 console.log('Error: couldn\'t GET data.', err.message);
             });
     }, [refresh]);
@@ -104,18 +106,25 @@ export default function ProductList() {
                 </Button>
             </div>
             <div className='content'>
-                {(dataImage && dataImage.length > 0) ? (
-                    dataImage.map(product => {
-                        return (
-                            <ProductTemplate key={product.id} data={product} setRefresh={setRefresh} />
-                        )
-                    })
-                ) : (
-                    <div className="empty-list">
-                        <img src={Empty} alt="empty product list" />
-                        <p>No product found!</p>
-                    </div>
-                )}
+                {!dataImage ? (
+                    <Box sx={{ maxWidth: '250px', width: '100%' }}>
+                        <Typography variant='body2'>
+                            {"Loading"}
+                        </Typography>
+                        <LinearProgress />
+                    </Box>) : (
+                    (dataImage.length > 0) ? (
+                        dataImage.map(product => {
+                            return (
+                                <ProductTemplate key={product.id} data={product} setRefresh={setRefresh} />
+                            )
+                        })
+                    ) : (
+                        <div className="empty-list">
+                            <img src={Empty} alt="empty product list" />
+                            <p>No product found!</p>
+                        </div>
+                    ))}
             </div>
         </React.Fragment >
     );
