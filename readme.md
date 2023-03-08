@@ -182,7 +182,7 @@ After running the project successfully, a Product Catalog page will be displayed
 
 ![Untitled3](https://user-images.githubusercontent.com/79465722/222976421-3e887be5-80eb-46e0-8f72-032ddf0b1bdb.png)
 
-- To remove a tag from the product, click on cross icon.
+- To remove a tag from the product, click on the `cross icon` of the tag.
 
 ![Untitled3](https://user-images.githubusercontent.com/79465722/222980786-d35d44a5-f915-4ed5-8208-0e5f34d10c3b.png)
 
